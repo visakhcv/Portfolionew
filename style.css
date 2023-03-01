@@ -423,6 +423,7 @@ header.sticky{
     justify-content: center;
     background: var(--second-color);
     cursor: pointer;
+    font-size: var(--p-font);
 }
 
 .alert:hover{
@@ -491,5 +492,8 @@ header.sticky{
     :root{
         --h1-font :3.7rem;
         --h2-font :2.7rem;
+    }
+    .alert{
+        font-size: 15px;
     }
 }
