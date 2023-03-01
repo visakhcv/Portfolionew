@@ -398,7 +398,8 @@ header.sticky{
 
 .top{
     position: fixed;
-    bottom: 2.1rem;
+    bottom: 3rem;
+    z-index: 10001;
     right: 2.1rem;
 }
 
@@ -409,6 +410,25 @@ header.sticky{
     padding: 10px;
     border-radius: 0.5rem;
 }
+
+.alert{
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: var(--second-color);
+    cursor: pointer;
+}
+
+.alert:hover{
+    background: var(--main-color);
+}
+
 @media (max-width:1325px){
     header{
         padding: 16px 3%;
