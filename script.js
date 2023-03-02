@@ -23,6 +23,6 @@ const scrolls = ScrollReveal({
     reset: true
 })
 
-scrolls.reveal('.home-text',{delay:190,origin:'bottom'})
+scrolls.reveal('.home-text',{delay:190,origin:'right'})
 
 scrolls.reveal('.about,.education,.portfolio,.contact',{delay:190, origin:'bottom'})

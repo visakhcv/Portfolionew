@@ -411,7 +411,7 @@ header.sticky{
     border-radius: 0.5rem;
 }
 
-.alert{
+/* .alert{
     position: fixed;
     bottom: 0;
     z-index: 1000;
@@ -428,7 +428,7 @@ header.sticky{
 
 .alert:hover{
     background: var(--main-color);
-}
+} */
 
 @media (max-width:1325px){
     header{
@@ -490,10 +490,23 @@ header.sticky{
         top: 100%;
     }
     :root{
-        --h1-font :3.7rem;
-        --h2-font :2.7rem;
+        --h1-font :2.7rem;
+        --h2-font :1.7rem;
+        --p-font:1rem;
     }
-    .alert{
-        font-size: 15px;
+    .about-me h5{
+        font-size: 1rem;
     }
-}
+    .skills-title{
+        font-size: 1.5rem;
+    }
+    .projects h3{
+        font-size: 1rem;
+    }
+    .row-text h6{
+        font-size: 0.7rem;
+    }
+    .skills-title{
+        margin-top: -40px;
+    }
+} 
